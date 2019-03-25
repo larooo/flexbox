@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+h1 {
+  color: white;
+  background-color: #000;
+}
+
+.center {
+  margin: 0 14%;
+  min-width: 600px;
+  width: 70%;
+  background-color: #4b4b4b;
+}
+
+.flex1 ul li {
+  display: inline;
+  word-spacing: 2em;
+}
+
+.flex1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.flex1 ul li a:hover {
+  text-decoration: underline;
+}
+
+.flex1 {
+  background-color: #4b4b4b;
+  display: flex;
+  margin: 8px;
+  justify-content: center;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#side-nav {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+  background-color: rgb(218, 214, 214);
+  padding: 10px;
+  line-height: 30px;
+}
+#side-nav ul li{
+    list-style: none;
+}
+#side-nav ul li a {
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+  }
+  #side-nav ul li a:hover{
+      text-decoration: underline;
+  }
+.flex3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.flex3-div {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ margin: 5px;
+}
+
+/* Thumbnail text*/
+.p1 {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.p1:hover {
+  text-shadow: 1px 1px rgb(251, 255, 0);
+}
+/* Some Movie Title */
+.p2 {
+  color: white;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+
